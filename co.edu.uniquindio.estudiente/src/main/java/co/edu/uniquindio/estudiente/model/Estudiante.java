@@ -1,4 +1,4 @@
-package model;
+package co.edu.uniquindio.estudiente.model;
 
 public class Estudiante {
 
@@ -8,6 +8,7 @@ public class Estudiante {
     private int semestre = 0;
     private double primeraNota = 0;
     private double segundaNota = 0;
+    private double terceraNota = 0;
 
     public String getNombre() {
         return nombre;
@@ -65,6 +66,5 @@ public class Estudiante {
         this.terceraNota = terceraNota;
     }
 
-    private double terceraNota = 0;
 
 }
