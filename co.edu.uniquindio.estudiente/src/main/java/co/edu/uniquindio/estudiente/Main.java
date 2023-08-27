@@ -66,7 +66,7 @@ public class Main {
         System.out.println("\nEl portaje de aprobacion del grupo fue de "+df.format(calcularPromedioAprobados(estadoEstudiante0,estadoEstudiante1,estadoEstudiante2))+"%");
 
         //Se calcula el promedio de estudiantes reprobados
-        System.out.println("\nEl portaje de aprobacion del grupo fue de "+df.format(calcularPromedioReprobados(estadoEstudiante0,estadoEstudiante1,estadoEstudiante2))+"%");
+        System.out.println("\nEl portaje de reprobacion del grupo fue de "+df.format(calcularPromedioReprobados(estadoEstudiante0,estadoEstudiante1,estadoEstudiante2))+"%");
 
         //Se obtiene el estudiante donde todas las notas sean mayor o igual a 4
         Estudiante estudianteNotasMayor4 = obtenerEstudianteNotasMayor4(estudiante0, estudiante1, estudiante2);
